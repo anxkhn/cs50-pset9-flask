@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quoted
+{% endblock %}
+
+{% block main %}
+<h1> Single share of {{ stock.name }} is priced at {{ stock.price | usd }} </h1>
+{% endblock %}
